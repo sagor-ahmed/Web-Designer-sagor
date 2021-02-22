@@ -1,0 +1,508 @@
+/*----------------------------------------*/
+/*  RESPONSIVE CSS START 
+/*----------------------------------------*/
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1500px
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        max-width: 1680px
+    }
+}
+
+@media (min-width: 2000px) {
+    .container {
+        max-width: 1800px
+    }
+}
+
+
+/* laptop devices 1200 - 1600 */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    .banner-text {
+        padding-left: 80px;
+    }
+}
+
+
+/* laptop devices 1200 - 1600 */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .paragraph {
+        font-size: 1.6rem;
+    }
+
+
+}
+
+
+
+/* large devices 992 - 1199*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /*slider*/
+    .banner-text {
+        padding-left: 50px;
+    }
+
+    /*about css*/
+    .about-content p {
+        font-size: 1.5rem;
+    }
+
+    .about-content {
+        margin-bottom: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1.5rem;
+    }
+
+    .paragraph strong {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+
+    /*skil css*/
+
+    .skills-content p {
+        font-size: 1.5rem;
+    }
+
+
+    /*main menu*/
+    .main-menu li a {
+        padding: 1.8rem 0;
+    }
+
+    .logo {
+        padding: 2rem 0;
+    }
+
+
+}
+
+
+/* Medium devices 768 - 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*commen classes*/
+    .pt-100 {
+        padding-top: 50px;
+    }
+
+
+    /*slider*/
+    .slider-img {
+        margin-bottom: 50px;
+    }
+
+    .banner-text {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /*about css*/
+    .about-img.w-img {
+        margin-bottom: 50px;
+    }
+
+    /*skil css*/
+
+    .skills-content {
+        margin-bottom: 50px;
+    }
+
+
+    /*service css*/
+    .services-item {
+        margin-bottom: 47px;
+
+    }
+
+    /*portfolio*/
+    .single-portfolio {
+        margin-bottom: 50px;
+    }
+
+
+    /*Humberger menu*/
+    .nav-toggle {
+        font-size: 1.5rem;
+        color: green;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 27px;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    .links {
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    .links li {
+        display: block;
+        text-align: left;
+        float: left;
+        width: 100%;
+        padding: 0;
+        /* margin: 0; */
+        height: 42px;
+
+    }
+
+    .main-menu .links li a {
+        font-size: 1.3rem !important;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        padding: 0 1rem !important;
+        display: block !important;
+        width: 100%;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    .nav-toggle:hover {
+
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+
+
+    .logo {
+        float: left;
+        padding: 1.8rem 0;
+    }
+
+    .sticky-bg-responsive {
+        display: block;
+    }
+
+    .banner-text p {
+        padding-right: 0px;
+    }
+
+    .banner-text h5 {
+        display: none;
+    }
+
+
+}
+
+
+/* Small devices 576 - 767 */
+@media (max-width: 767px) {
+
+
+    /*commen classes*/
+    .pt-100 {
+        padding-top: 50px;
+    }
+
+    /*slider*/
+    .slider-img {
+        margin-bottom: 50px;
+    }
+
+    .logo {
+        float: left;
+        padding: 1.8rem 0;
+    }
+
+    .sticky-bg-responsive {
+        display: block;
+    }
+
+
+    .banner-text p {
+        padding-right: 0px;
+    }
+
+    .banner-text {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+
+
+    /*about css*/
+    .about-img.w-img {
+        margin-bottom: 50px;
+    }
+
+    /*skil css*/
+    .skills-content {
+        margin-bottom: 50px;
+    }
+
+    /*service css*/
+    .services-item {
+        margin-bottom: 47px;
+    }
+
+    /*portfolio*/
+
+    .single-portfolio {
+        margin-bottom: 35px;
+    }
+
+    /*Humberger menu*/
+    .nav-toggle {
+        font-size: 1.5rem;
+        color: green;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 27px;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    .links {
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    .links li {
+        display: block;
+        text-align: left;
+        float: left;
+        width: 100%;
+        padding: 0;
+        /* margin: 0; */
+        height: 42px;
+        margin-top: -3px;
+    }
+
+    .main-menu .links li a {
+        font-size: 1.3rem !important;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        padding: 0 1rem !important;
+        display: block !important;
+        width: 100%;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+   
+
+
+    .pb-110 {
+        padding-bottom: 37px;
+    }
+
+    .pb-90 {
+        padding-bottom: 45px;
+    }
+
+    .pb-115 {
+        padding-bottom: 10px;
+    }
+
+    .pb-105 {
+        padding-bottom: 55px;
+    }
+
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+
+    .portfolio-section .mt-40 {
+        margin-top: -3px;
+    }
+
+
+
+    .banner-text h4 {
+        display: none;
+    }
+
+    .banner-text h2 {
+        display: none;
+    }
+
+
+
+}
+
+/* Small devices 0 - 575 */
+
+@media (max-width: 575px) {
+
+    .paragraph {
+        font-size: 1.4rem;
+    }
+
+    .paragraph strong {
+        font-size: 1.6rem;
+    }
+
+
+    .skills-content p {
+        font-size: 1.4rem;
+    }
+
+    .testimonial-content p {
+        font-size: 1.4rem;
+    }
+
+    /*section title*/
+    .section-title p {
+        font-size: 1.4rem;
+    }
+
+    /*banner*/
+
+.banner-text h3 {
+	font-size: 2.5rem!important;
+}
+
+    .banner-text p {
+        padding-right: 0px;
+        font-size: 1.4rem;
+    }
+
+    .container {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+    .testimonial-item {
+        margin: 25px;
+    }
+
+
+    /*about css*/
+
+    .about-content p {
+        font-size: 1.4rem;
+    }
+
+
+    /*Humberger menu*/
+    .nav-toggle {
+        font-size: 1.5rem;
+        color: green;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        float: right;
+        position: absolute;
+        right: 30px;
+        top: 27px;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    .links {
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+    .links li {
+        display: block;
+        text-align: left;
+        float: left;
+        width: 100%;
+        padding: 0;
+        /* margin: 0; */
+        height: 42px;
+
+    }
+
+    .main-menu .links li a {
+        font-size: 1.3rem !important;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        padding: 0 1rem !important;
+        display: block !important;
+        width: 100%;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+
+
+
+    .logo {
+        float: left;
+        padding: 1.8rem 0;
+    }
+
+    .sticky-bg-responsive {
+        display: block;
+    }
+
+
+
+    .banner-text h5 {
+        font-size: 2rem;
+    }
+
+
+.about-content h3 {
+	font-size: 1.9rem;
+	line-height: 1.4;
+}
+
+
+
+}
+
+
+
+
+/* Small devices 0 - 575 */
+@media (min-width: 992px) {
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .sticky-bg-responsive {
+        background-color: #222;
+    }
+
+    .links {
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 767px) {
+    .banner-text h5 {
+        display: none;
+    }
+}
