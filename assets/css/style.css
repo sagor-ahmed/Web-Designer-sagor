@@ -1,9 +1,7 @@
 /*** 
-
 ====================================================================
 	 Fonts
 ====================================================================
-
 ***/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
@@ -13,15 +11,10 @@
 */
 
 /*** 
-
-
 /*-----------------------------------------------------------------------------------
-
 -----------------------------------------------------------------------------------
-
     CSS INDEX
     ===================
-
     01. Theme default CSS	
     02. Header CSS	
     03. Slider CSS	
@@ -32,7 +25,6 @@
     08. Testimonial CSS	
     09. Contact CSS	
    
-
 -----------------------------------------------------------------------------------*/
 
 
@@ -53,10 +45,6 @@
 
 html {
     font-size: 62.5%;
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -1370,33 +1358,5 @@ textarea#messagebox {
     margin-bottom: 0px !important;
     margin-top: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
